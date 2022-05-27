@@ -71,4 +71,43 @@ Once we have edited the configuration file we can start the statistical-extracto
 
 ![](https://github.com/aoliverg/a_practical_course_on_terminology_extraction/blob/main/statistical_extractor/statistical_extractor_GUI_interface.PNG)
 
+With the button **Corpus file** the file containing the corpus to use should be selected.
 
+With the button **Candidates file** the path an name of the file that will contain the term candidates should be selected.
+
+To start the extraction process click on the button **GO!**
+
+At the end of the process, the candidates file will contain the term candidates. The frequency of the candidates will be shown it the option **show_frequency** is set to True in the configuration file.
+
+```
+3823	health care
+2331	public health
+2054	World Health
+2008	mental health
+1900	Health Organization
+1813	World Health Organization
+1722	Public Health
+1581	blood pressure
+1519	side effects
+1463	clinical trials
+1373	immune system
+1328	New Zealand
+1238	nervous system
+1235	breast cancer
+1122	commonly used
+1072	Medical Center
+1069	increased risk
+1035	blood cells
+965	Drug Administration
+935	T cells
+918	health insurance
+902	risk factors
+872	heart failure
+857	quality of life
+851	blood flow
+832	years old
+829	heart rate
+828	same time
+817	Ministry of Health
+805	blood vessels
+```
