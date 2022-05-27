@@ -43,11 +43,20 @@ show_frequency: True
 ```
 
 The **project_name** is the name of the sqlite file that will contain the data. You can keep the default name, but it will be overwritten every time you run the program. 
+
 The **lang** is the ISO code for the language. 
+
 The **n_min** is the minimum order of the n-grams.
+
 The **n_max** is the maximum order of the n-grams.
+
 With the **stopwords** parameter you can specifyt the stop words list to be used. Is very important to indicate a list for the working language. Specify None if you don't want to use any stop words list.
+
 With the **inner_stopwords** parameter you can specifyt the inner stop words list to be used. Specify None if you don't want to use any stop words list.
 Set **case_normalization** to True if you want to perform this optional step. False otherwise.
+
 Set **regexp_exclusion** if you want to perform this optional step. False otherwise.
+
 Set **show_frequency** to True if you want to have the frequency values in the list of candidates. False otherwise.
+
+
