@@ -1,0 +1,19 @@
+project_name: statistical.sqlite
+tokenizer: MTUOC_tokenizer_eng
+   #tokenizer name or None
+lang: en
+n_min: 2
+n_max: 3
+min_freq: 2
+stopwords: stop-eng.txt
+   # stopwords file or None
+inner_stopwords: inner-stop-eng.txt
+   # inner stopwords file or None
+case_normalization: False
+   # True or False
+nest_normalization: False
+   # True of False
+regexp_exclusion: None
+   # exclusion file or None
+show_frequency: True
+   # True of False

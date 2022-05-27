@@ -1,0 +1,4 @@
+jieba==0.42.1
+nltk==3.7
+pyfreeling==0.1.1
+PyYAML==6.0
