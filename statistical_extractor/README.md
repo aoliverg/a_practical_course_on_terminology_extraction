@@ -2,7 +2,15 @@
 
 ## 1. Introduction
 
-This is a simple program to test the capabilities of statistical term extraction. The program has a very simple GUI interface and it is easily configured using a yaml file. The program is distributed in Python version 3 code and in an executable version for Windows. The executable version works in any computer with a recent version of Windows with any other requirement. The Python version works in any computer (Windows, Linux and Mac) with a Python version 3 interpreter installed (https://www.python.org/). For the Python version the following requirements are necessary:
+This is a simple program to test the capabilities of statistical term extraction. The program has a very simple GUI interface and it is easily configured using a yaml file. The program is distributed in Python version 3 code and in an executable version for Windows. The executable version works in any computer with a recent version of Windows with any other requirement. 
+
+The Windows exe for 64 bits computers can be downloaded from:http://lpg.uoc.edu/a_practical_course_on_terminology_extraction/statistical-extractor.exe
+(copy the link and paste into your browser).
+
+The Windows exe for 32 bits computers can be downloaded from:http://lpg.uoc.edu/a_practical_course_on_terminology_extraction/statistical-extractor.exe
+(copy the link and paste into your browser).
+
+The Python version works in any computer (Windows, Linux and Mac) with a Python version 3 interpreter installed (https://www.python.org/). For the Python version the following requirements are necessary:
 
 * nltk
 * PyYAML
@@ -58,5 +66,9 @@ Set **case_normalization** to True if you want to perform this optional step. Fa
 Set **regexp_exclusion** if you want to perform this optional step. False otherwise.
 
 Set **show_frequency** to True if you want to have the frequency values in the list of candidates. False otherwise.
+
+Once we have edited the configuration file we can start the statistical-extractor program and the following interface will show up:
+
+![]([http://url/to/img.png](https://github.com/aoliverg/a_practical_course_on_terminology_extraction/blob/main/statistical_extractor/statistical_extractor_GUI_interface.PNG)
 
 
