@@ -69,6 +69,6 @@ Set **show_frequency** to True if you want to have the frequency values in the l
 
 Once we have edited the configuration file we can start the statistical-extractor program and the following interface will show up:
 
-![]([http://url/to/img.png](https://github.com/aoliverg/a_practical_course_on_terminology_extraction/blob/main/statistical_extractor/statistical_extractor_GUI_interface.PNG)
+![](https://github.com/aoliverg/a_practical_course_on_terminology_extraction/blob/main/statistical_extractor/statistical_extractor_GUI_interface.PNG)
 
 
