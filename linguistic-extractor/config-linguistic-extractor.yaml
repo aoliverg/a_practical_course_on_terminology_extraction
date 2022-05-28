@@ -1,0 +1,6 @@
+project_name: linguistic.sqlite
+lang: en
+min_freq: 2
+POS_patterns: POS-patterns.txt
+show_frequency: True
+   # True of False
