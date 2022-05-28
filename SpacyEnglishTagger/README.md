@@ -120,6 +120,6 @@ The use is very easy:
 
 * With the button **Input file** select the text file to POS tag.
 * With the button **Output file** select the path and name of the file that will store the tagged corpus.
-* Click the button ""POS TAG!** to start the tagging process.
+* Click the button **POS TAG!** to start the tagging process.
 
 
