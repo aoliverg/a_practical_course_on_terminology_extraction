@@ -42,7 +42,7 @@ SPACE	space
 
 Once the tagset is choses, you can start the program and the following GUI inteface appears:
 
-![](https://github.com/aoliverg/a_practical_course_on_terminology_extraction/blob/main/SpacySpanishTagger/SpacyCatalanTagger.PNG)
+![](https://github.com/aoliverg/a_practical_course_on_terminology_extraction/blob/main/SpacyCatalanTagger/SpacyCatalanTagger.PNG)
 
 The use is very easy:
 
