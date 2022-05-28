@@ -19,30 +19,31 @@ The Spacy English Tagger has two tagging modes:
 * **Coarse**: uses the Universal POS tags
 
 ```
-POS	DESCRIPTION	EXAMPLES
-ADJ	adjective	*big, old, green, incomprehensible, first*
-ADP	adposition	*in, to, during*
-ADV	adverb	*very, tomorrow, down, where, there*
-AUX	auxiliary	*is, has (done), will (do), should (do)*
-CONJ	conjunction	*and, or, but*
-CCONJ	coordinating conjunction	*and, or, but*
-DET	determiner	*a, an, the*
-INTJ	interjection	*psst, ouch, bravo, hello*
-NOUN	noun	*girl, cat, tree, air, beauty*
-NUM	numeral	*1, 2017, one, seventy-seven, IV, MMXIV*
-PART	particle	*’s, not,*
-PRON	pronoun	*I, you, he, she, myself, themselves, somebody*
-PROPN	proper noun	*Mary, John, London, NATO, HBO*
-PUNCT	punctuation	*., (, ), ?*
-SCONJ	subordinating conjunction	*if, while, that*
-SYM	symbol	*$, %, §, ©, +, −, ×, ÷, =, :), 😝*
-VERB	verb	*run, runs, running, eat, ate, eating*
-X	other	*sfpksdpsxmsa*
+POS	DESCRIPTION
+ADJ	adjective
+ADP	adposition
+ADV	adverb
+AUX	auxiliary
+CONJ	conjunction
+CCONJ	coordinating conjunction
+DET	determiner
+INTJ	interjection
+NOUN	noun
+NUM	numeral
+PART	particle
+PRON	pronoun
+PROPN	proper noun
+PUNCT	punctuation
+SCONJ	subordinating conjunction
+SYM	symbol
+VERB	verb
+X	other
 SPACE	space
+
 ```
 * fine**: uses a more detailed tag set:
+
 ```
-POS	POS_Description	Fine-grained Tag	Description	Morphology
 0	ADJ	adjective	AFX	affix
 1	ADJ	adjective	JJ	adjective
 2	ADJ	adjective	JJR	adjective, comparative
@@ -98,6 +99,27 @@ POS	POS_Description	Fine-grained Tag	Description	Morphology
 52	X	other	GW	additional word in multi-word expression
 53	X	other	XX	unknown
 54	SPACE	space	_SP	space
-55		NIL	missing tag	
-		
+55		NIL	missing tag			
 ```
+
+To configure the tagger, the file config-spacy-tagger.yaml should be edited in any text editor:
+
+```
+mode: coarse
+#one of coarse (Universal POS tags) or fine (detailed tags)
+```
+
+If you want to use the fine tagset, change the mode to fine.
+
+
+Once the tagset is choses, you can start the program and the following GUI inteface appears:
+
+![](https://github.com/aoliverg/a_practical_course_on_terminology_extraction/blob/main/SpacyEnglishTagger/SpacyEnglishTagger.PNG)
+
+The use is very easy:
+
+* With the button **Input file** select the text file to POS tag.
+* With the button **Output file** select the path and name of the file that will store the tagged corpus.
+* Click the button ""POS TAG!** to start the tagging process.
+
+
