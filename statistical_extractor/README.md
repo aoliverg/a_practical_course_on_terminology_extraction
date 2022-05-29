@@ -16,7 +16,7 @@ The Python version works in any computer (Windows, Linux and Mac) with a Python 
 * PyYAML
 * jieba (only if you need to use the Chinese tokenizer)
 
-The TBXTools.py file should be placed in the same directory as the statistica-extractor.py program.
+The TBXTools.py file should be placed in the same directory as the statistical-extractor.py program.
 
 These requirements can be installed with pip3
 
