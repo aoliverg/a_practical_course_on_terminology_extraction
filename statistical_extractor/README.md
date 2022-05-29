@@ -18,9 +18,9 @@ The Python version works in any computer (Windows, Linux and Mac) with a Python 
 
 The TBXTools.py file should be placed in the same directory as the statistical-extractor.py program.
 
-These requirements can be installed with pip3
+These requirements can be installed with bapip3
 
-```pip3 install nltk```
+```pip3 install nltk PyYAML jie```
 
 ## 2. Use of the program
 
