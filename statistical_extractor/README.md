@@ -4,11 +4,11 @@
 
 This is a simple program to test the capabilities of statistical term extraction. The program has a very simple GUI interface and it is easily configured using a yaml file. The program is distributed in Python version 3 code and in an executable version for Windows. The executable version works in any computer with a recent version of Windows with any other requirement. 
 
-The Windows exe for 64 bits computers can be downloaded from:http://lpg.uoc.edu/a_practical_course_on_terminology_extraction/statistical-extractor.exe
+The Windows exe can be downloaded from:http://lpg.uoc.edu/a_practical_course_on_terminology_extraction/statistical-extractor.zip
+
 (copy the link and paste into your browser).
 
-The Windows exe for 32 bits computers can be downloaded from:http://lpg.uoc.edu/a_practical_course_on_terminology_extraction/statistical-extractor-32b.exe
-(copy the link and paste into your browser).
+Two exe files are provided, one for 64 bits computers (statistical-extractor.exe) and another for 32 bits computers (statistical-extractor-32b.exe).
 
 The Python version works in any computer (Windows, Linux and Mac) with a Python version 3 interpreter installed (https://www.python.org/). For the Python version the following requirements are necessary:
 
