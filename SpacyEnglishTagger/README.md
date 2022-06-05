@@ -113,7 +113,7 @@ mode: coarse
 If you want to use the fine tagset, change the mode to fine.
 
 
-Once the tagset is choses, you can start the program and the following GUI inteface appears:
+Once the tagset is chosen, you can start the program and the following GUI inteface appears:
 
 ![](https://github.com/aoliverg/a_practical_course_on_terminology_extraction/blob/main/SpacyEnglishTagger/SpacyEnglishTagger.PNG)
 
