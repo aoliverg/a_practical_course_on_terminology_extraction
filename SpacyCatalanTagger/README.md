@@ -2,7 +2,7 @@
 
 ## 1. Introduction
 
-This is a simple tagger able to POS tag text files (it is recommended that the text file are segmented). It uses Spacy and the Spacy model ca_core_news_sm. The model should be located in the sambe folder as the program.
+This is a simple tagger able to POS tag text files (it is recommended that the text file are segmented). It uses Spacy and the Spacy model ca_core_news_sm. The model should be located in the same folder as the program.
 
 The Python version is distributed. You can download to a Windows executable version from http://lpg.uoc.edu/a_practical_course_on_terminology_extraction/SpacyCatalanTagger.zip 
 (copy the link and paste into your browser)
