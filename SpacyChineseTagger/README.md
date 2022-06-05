@@ -38,7 +38,7 @@ X	other
 SPACE	space
 
 ```
-* fine**: uses a more detailed tag set.
+**fine**: uses a more detailed tag set.
 
 To configure the tagger, the file config-spacy-tagger.yaml should be edited in any text editor:
 
