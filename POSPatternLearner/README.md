@@ -4,7 +4,7 @@
 
 This program allows learning a set of POS patterns for term representation from a tagged corpus and a list of known terms. The program is distributed as Pyhton version 3 code (in this repository). A windows executable version is available en the following link:
 
-http://lpg.uoc.edu/a_practical_course_on_terminology_extraction/POSPatternLearner-exe.zip
+http://lpg.uoc.edu/a_practical_course_on_terminology_extraction/POSPatternLearner-win.zip
 
 ## 2. Use of POSPatternLearner
 
