@@ -6,7 +6,7 @@ This is a simple tagger able to POS tag text files (it is recommended that the t
 
 This tagger is distributed as a Python v3 code (no Windows executable version available at the moment). You need a Python v3 interpreter installed in your computer (https://www.python.org/) and you need to install the following prerequisites:
 
-```sudo pip3 install PyYAML spacy spacy-pkuseg```
+```sudo pip3 install PyYAML spacy pymorphy2```
 
 
 ## 2. Use
