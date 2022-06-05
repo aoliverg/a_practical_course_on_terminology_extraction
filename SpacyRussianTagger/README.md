@@ -2,7 +2,7 @@
 
 ## 1. Introduction
 
-This is a simple tagger able to POS tag text files (it is recommended that the text file are segmented). It uses Spacy and the Spacy model zh_core_web_sm. The model should be located in the sambe folder as the program.
+This is a simple tagger able to POS tag text files (it is recommended that the text file are segmented). It uses Spacy and the Spacy model ru_core_news_sm. The model should be located in the same folder as the program.
 
 This tagger is distributed as a Python v3 code (no Windows executable version available at the moment). You need a Python v3 interpreter installed in your computer (https://www.python.org/) and you need to install the following prerequisites:
 
