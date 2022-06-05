@@ -42,7 +42,7 @@ X	other
 SPACE	space
 
 ```
-* fine**: uses a more detailed tag set:
+**fine**: uses a more detailed tag set:
 
 ```
 0	ADJ	adjective	AFX	affix
